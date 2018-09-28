@@ -8,7 +8,7 @@ class Greeter {
 
 showGreeting() {
   const banner = document.getElementById('banner');
-  banner.innerHTML = 'Hello ' + this.first_name + ' ' + this.last_name + '.';
+  banner.innerHTML = 'Hey whats up hello ' + this.first_name + ' ' + this.last_name + '.';
 }
 
 hideGreeting() {

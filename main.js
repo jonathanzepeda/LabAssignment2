@@ -5,7 +5,7 @@ var Greeter = /** @class */ (function () {
     }
     Greeter.prototype.showGreeting = function () {
         var banner = document.getElementById('banner');
-        banner.innerHTML = 'Hello ' + this.first_name + ' ' + this.last_name + '.';
+        banner.innerHTML = 'Hey whats up hello ' + this.first_name + ' ' + this.last_name + '.';
     };
     Greeter.prototype.hideGreeting = function () {
         var banner = document.getElementById('banner');
